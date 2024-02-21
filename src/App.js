@@ -8,6 +8,7 @@ function App() {
   const [fileMap, setFileMap] = useLocalStorage("fileMap", null);
 
   useEffect(() => {
+    if (!fileMap) return;
     const newFileMap = { ...fileMap };
     function fileFinder(dirStructure) {
       let setOpen = false;
