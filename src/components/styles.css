@@ -1,0 +1,16 @@
+.file {
+    padding-left: 15px ;
+}
+
+.file-name {
+    border: none;
+    background-color: transparent;
+}
+
+.file-name:hover {
+    background-color: beige;
+}
+
+.is-highlighted {
+    background-color: grey;
+}
